@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Injectable} from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { SearchService } from '../../services/search-service.service';
+import { UlListComponent } from '../ul-list/ul-list.component';
 
 @Component({
   selector: 'app-home-page',
